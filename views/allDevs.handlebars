@@ -1,0 +1,56 @@
+    <header class="navbar">
+        <a href="/"><img src="https://www.pngkit.com/png/detail/128-1285182_software-development-clipart-software-code-landing-page-icon.png" alt="logo"></a>
+        <nav class="navbar-itens">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/all">All Devs</a></li>
+                <li><a href="/form">Add New</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="container">
+                <h1>Todos os Devlopers</h1>
+                <a href="/form"><button class="add">Add Dev</button></a>
+
+                <table>
+
+                    <tr>
+                        <th>ID</th>
+                        <th>NOME</th>
+                        <th>CPF</th>
+                        <th>SIDE</th>
+                        <th>CARGO</th>
+                        <th>TECNOLOGIA</th>
+                    </tr>
+                    
+                    <div>
+                    {{#each developers}}
+                    <tr>
+                        <td>{{dataValues.id}}</td>
+                        <td>{{dataValues.nome}}</td>
+                        <td>{{dataValues.cpf}}</td>
+                        <td>{{dataValues.side}}</td>
+                        <td>{{dataValues.cargo}}</td>
+                        <td>{{dataValues.tecnologia}}</td>
+                        <td style="padding: 5px;"><a href="/edit/{{dataValues.id}}"><button class="bt">Edit</button></a></td>
+                        <td style="padding: 5px;"><a href="/delete/{{dataValues.id}}"><button class="bt red">Delete</button></a></td>
+                    </tr>
+
+
+
+                    {{/each}}
+                    </div>
+
+                </table>
+
+                <!--tela de confimação do delete-->
+                
+                <!--/tela de confimação do delete-->
+
+            </div>
+    </div>
+    
+
+    <script src="./script/allDevs.js"></script>

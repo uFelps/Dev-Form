@@ -1,0 +1,81 @@
+.confirm {
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.487);
+}
+
+.screen {
+    width: 800px;
+    height: 250px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.screen a {
+    text-decoration: none;
+}
+
+.container table {
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.container tr {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.container th,
+td {
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.container th {
+    font-weight: 700;
+    padding: 10px 20px 5px 20px;
+    color: gray;
+}
+
+.container td {
+    font-weight: 700;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+
+button {
+    display: inline;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 50px 5px 0px 0px;
+    font-weight: 500;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.red:hover {
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.dark:hover {
+    background-color: black;
+    color: white;
+}

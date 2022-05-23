@@ -1,0 +1,56 @@
+<header class="navbar">
+        <a href="/"><img src="https://www.pngkit.com/png/detail/128-1285182_software-development-clipart-software-code-landing-page-icon.png" alt="logo"></a>
+        <nav class="navbar-itens">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/all">All Devs</a></li>
+                <li><a href="/form">Add New</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Cadastrar Dev</h1>
+
+        <form action="/add" method="post" id="form">
+            <div class="label">
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome" autofocus required>
+            </div>
+
+            <div class="label">
+                <label>CPF</label>
+                <input type="text" name="cpf" id="cpf" maxlength="11" autofocus required>
+            </div>
+
+            <div class="label">
+                <label>Side</label>
+                <select name="side" required id="side">
+                    <option selected disabled>- Selecione -</option>
+                    <option value="Front-End">Front-End</option>
+                    <option value="Back-end">Back-end</option>
+                    <option value="Full Stack">Full Stack</option>
+                </select>
+            </div>
+
+            <div class="label">
+                <label>Cargo</label>
+                <select name="cargo" required id="cargo">
+                    <option selected disabled>- Selecione -</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Pleno">Pleno</option>
+                    <option value="Senior">Senior</option>
+                </select>
+            </div>
+
+            <div class="label">
+                <label>Principal Tecnologia</label>
+                <input type="text" name="tecnologia" id="tec" required>
+            </div>
+
+            <button type="button" class="btCad" onclick="validarCampos()">Cadastrar Dev</button>
+
+        </form>
+    </div>
+
+    <script src="./script/form.js"></script>

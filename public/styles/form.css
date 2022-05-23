@@ -1,0 +1,105 @@
+body {
+    background-color: #d4d1d1;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*navbar*/
+.navbar {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.navbar-itens {
+    text-align: right;
+}
+
+.navbar-itens ul {
+    margin: 0;
+}
+
+.navbar-itens li {
+    list-style: none;
+    display: inline;
+    margin: 0px 15px 0px 15px;
+}
+
+.navbar a {
+    color: black;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    color: #8d8d8d;
+}
+
+.container {
+    width: 550px;
+    background-color: white;
+    margin: auto;
+    padding: 80px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.label label {
+    display: block;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 7px;
+
+}
+
+input,
+select {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+select {
+    width: 260px;
+    height: 30px;
+}
+
+button {
+    display: block;
+    background-color: white;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 40px 0px 0px 0px;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: black;
+    border: none;
+    color: white;
+}

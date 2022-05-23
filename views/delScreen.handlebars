@@ -1,0 +1,30 @@
+<section class="confirm">
+        <div class="screen">
+            <h1>Deseja Excluir esse Registro?</h1>
+
+            <div class="container">
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>NOME</th>
+                        <th>CPF</th>
+                        <th>SIDE</th>
+                        <th>CARGO</th>
+                        <th>TECNOLOGIA</th>
+                    </tr>
+                    <tr>
+                        <td>{{id}}</td>
+                        <td>{{nome}}</td>
+                        <td>{{cpf}}</td>
+                        <td>{{side}}</td>
+                        <td>{{cargo}}</td>
+                        <td>{{tecnologia}}</td>
+                    </tr>
+                </table>
+
+                <a href="/del/{{id}}"><button class="red">Sim</button></a>
+                <a href="/"><button class="dark">Não</button></a>
+            </div>
+            
+        </div>
+    </section>

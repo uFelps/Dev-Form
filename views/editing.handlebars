@@ -1,0 +1,71 @@
+    <header class="navbar">
+        <a href="/"><img src="https://www.pngkit.com/png/detail/128-1285182_software-development-clipart-software-code-landing-page-icon.png" alt="logo"></a>
+        <nav class="navbar-itens">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/all">All Devs</a></li>
+                <li><a href="/form">Add New</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Editar Registro</h1>
+
+        <form action="/up/{{id}}" method="post" id="form">
+            <div class="label">
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome" value="{{nome}}" autofocus required>
+            </div>
+
+            <div class="label">
+                <label>CPF</label>
+                <input type="text" name="cpf" id="cpf" maxlength="11" value="{{cpf}}" autofocus required>
+            </div>
+
+            <div class="label">
+                <label>Side</label>
+                <select name="side" required id="side" value="{{side}}">
+                    <option selected disabled>- Selecione -</option>
+                    <option value="Front-end">Front-End</option>
+                    <option value="Back-end">Back-end</option>
+                    <option value="Full Stack">Full Stack</option>
+                </select>
+            </div>
+
+            <div class="label">
+                <label>Cargo</label>
+                <select name="cargo" required id="cargo" value="{{cargo}}">
+                    <option selected disabled>- Selecione -</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Pleno">Pleno</option>
+                    <option value="Senior">Senior</option>
+                </select>
+            </div>
+
+            <div class="label">
+                <label>Principal Tecnologia</label>
+                <input type="text" name="tec" id="tec" value="{{tecnologia}}" required>
+            </div>
+
+            <button type="button" class="btCad" onclick="validarCampos()">Salvar Registro</button>
+
+        </form>
+
+        <!--tela de confimação do salvar registro-->
+        <div class="confirm" id="confirm">
+            <section>
+                <h1>Deseja Salvar as Alterações?</h1>
+                <button onclick="submit()">Sim</button>
+                <button onclick="voltar()" class="red">Não</button>
+            </section>
+        </div>
+        <!--tela de confimação do salvar registro-->
+
+    </div>
+
+
+
+
+
+    <script src="/script/editing.js"></script>
