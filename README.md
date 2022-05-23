@@ -1,6 +1,9 @@
 &nbsp;
 
 &nbsp;
+<div>
+  <img style="border-radius: 20px" width="100px" margin="30px" src="./img_readme/logo.png"/>
+</div>
 
 # DEV FORM
 
