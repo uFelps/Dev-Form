@@ -14,13 +14,13 @@
 &nbsp;
 
 <div align="center">
-  <img style="border-radius: 20px" width="550px" margin="30px" src="./img_readme/6.png"/>
+  <img style="border-radius: 20px" width="600px" margin="30px" src="./img_readme/6.png"/>
 </div>
 <div align="center">
-  <img style="border-radius: 20px" width="550px" margin="30px" src="./img_readme/8.png"/>
+  <img style="border-radius: 20px" width="600px" margin="30px" src="./img_readme/8.png"/>
 </div>
 <div align="center">
-  <img style="border-radius: 20px" width="550px" margin="30px" src="./img_readme/9.png"/>
+  <img style="border-radius: 20px" width="600px" margin="30px" src="./img_readme/9.png"/>
 </div>
 
 &nbsp;
@@ -53,13 +53,13 @@
 
 ### 1) Baixe o arquivo .zip, extraia e abra a pasta no Visual Studio Code.
 <div align="center">
-  <img style="border-radius: 20px" width="300px" margin="30px" src="./img_readme/1.png"/>
+  <img style="border-radius: 20px" width="400px" margin="30px" src="./img_readme/1.png"/>
 </div>
 <div align="center">
-  <img style="border-radius: 20px" width="300px"  margin="30px" src="./img_readme/2.png"/>
+  <img style="border-radius: 20px" width="400px"  margin="30px" src="./img_readme/2.png"/>
 </div>
 <div align="center">
-  <img style="border-radius: 20px" width="400px" margin="30px" src="./img_readme/3.png"/>
+  <img style="border-radius: 20px" width="500px" margin="30px" src="./img_readme/3.png"/>
 </div>
 
 
@@ -68,6 +68,9 @@
 ### 2) Abra o terminal, e execute os comandos abaixos para instalar os pacotes necessários:
 
 &nbsp;
+<div align="center">
+  <img style="border-radius: 20px" width="600px" margin="30px" src="./img_readme/10.png"/>
+</div>
 
 ````
 npm install --save express
@@ -88,8 +91,15 @@ npm install --save mysql2
 &nbsp;
 
 ### 3) Abra o Arquivo Connection.js, e insira a sua senha de root do banco de dados (caso não houver senha, deixe em branco).
+
 <div align="center">
-  <img style="border-radius: 20px" width="400px" margin="30px" src="./img_readme/4.png"/>
+  <img style="border-radius: 20px" width="300px" margin="30px" src="./img_readme/11.png"/>
+</div>
+
+&nbsp;
+
+<div align="center">
+  <img style="border-radius: 20px" width="700px" margin="30px" src="./img_readme/4.png"/>
 </div>
 
 &nbsp;
@@ -100,7 +110,7 @@ node main.js
 ````
 Caso apareça isso, deu certo!
 <div align="center">
-  <img style="border-radius: 20px" width="400px" margin="30px" src="./img_readme/5.png"/>
+  <img style="border-radius: 20px" width="700px" margin="30px" src="./img_readme/5.png"/>
 </div>
 
 &nbsp;
@@ -111,7 +121,7 @@ http://localhost:8081/
 ````
 
 <div align="center">
-  <img style="border-radius: 20px" width="400px" margin="30px" src="./img_readme/6.png"/>
+  <img style="border-radius: 20px" width="600px" margin="30px" src="./img_readme/6.png"/>
 </div>
 
 
